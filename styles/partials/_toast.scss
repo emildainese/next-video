@@ -1,0 +1,57 @@
+.Toastify__toast {
+  padding: 0 !important;
+}
+
+.Toastify__toast--default {
+  padding: 0 !important;
+}
+
+.Toastify__toast-container--top-right {
+  top: 8rem !important;
+  right: 5rem !important;
+}
+
+.Toastify__toast-container--top-left {
+  top: 8rem !important;
+  left: 5rem !important;
+}
+
+.Toastify__toast-container--top-center {
+  top: 8rem !important;
+}
+
+.Toastify__toast-container--bottom-left {
+  bottom: 8rem !important;
+  left: 5rem !important;
+}
+
+.Toastify__toast-container--bottom-center {
+  bottom: 8rem !important;
+}
+
+.Toastify__toast-container--bottom-right {
+  bottom: 8rem !important;
+  right: 5rem !important;
+}
+
+.Toastify__close-button {
+  display: none !important;
+}
+
+.Toastify__toast-body {
+  padding: 0 !important;
+}
+
+.Toastify__toast-container {
+  width: 30rem !important;
+}
+
+button.close {
+  display: none !important;
+}
+
+.Toastify__progress-bar,
+.Toastify__progress-bar--animated,
+.Toastify__progress-bar--default {
+  background: $primary !important;
+}

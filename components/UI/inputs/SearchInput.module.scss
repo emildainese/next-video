@@ -1,0 +1,11 @@
+@import '../../../styles/partials/colors';
+
+.searchIcon {
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.searchIcon:hover {
+  color: #fafafa !important;
+  background-color: $primary !important;
+}

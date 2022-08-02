@@ -1,0 +1,54 @@
+@import './partials/colors';
+@import './partials/input';
+@import './partials/buttons';
+@import './partials/list-group';
+@import './partials/theme-toggler';
+@import './partials/form';
+@import './partials/toast';
+@import './partials/aspect-ratio';
+@import './partials/scroll-bar';
+
+//Responsive Font Size
+$enable-responsive-font-sizes: true;
+$enable-shadows: true;
+
+* {
+  z-index: 1;
+}
+
+
+html,
+body,
+#__next,
+#layout {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-y: visible;
+}
+
+body {
+  position: relative;
+}
+
+.card {
+  border: 0 !important;
+}
+
+.text-shadow {
+  text-shadow: 2px 1px 20px $primary;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.truncate {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@import '~bootstrap/scss/bootstrap';

@@ -1,0 +1,26 @@
+//Colors
+$teal: #20c997;
+$darkpink: #e75480;
+$violet: #8a2be2;
+$indigo: #6610f2;
+$myDark: #282828;
+$myLight: #fafafa;
+
+//Gary Scale
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// Override variables for custom theme
+$primary: $violet;
+$success: $teal;
+$light: $myLight;
+$dark: $myDark;

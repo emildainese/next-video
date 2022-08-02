@@ -1,0 +1,42 @@
+{
+  "name": "next-tube",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.0.2",
+    "cloudinary": "^1.27.1",
+    "formidable": "^2.0.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^5.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.3",
+    "mysql2": "^2.2.5",
+    "next": "10.2.0",
+    "next-auth": "^3.27.3",
+    "next-connect": "^0.10.2",
+    "nodemailer": "^6.6.3",
+    "nodemailer-sendgrid": "^1.0.3",
+    "react": "17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-image-crop": "^8.6.12",
+    "react-redux": "^7.2.6",
+    "react-toastify": "^7.0.4",
+    "react-toggle": "^4.1.2",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "sequelize": "^6.6.5",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "node-sass": "5.0",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}
